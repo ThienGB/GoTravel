@@ -13,6 +13,11 @@
         android:theme="@style/Theme.GoTravel"
         tools:targetApi="31">
         <activity
+            android:name=".ui.module.chat.ConversationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_conversation"
+            android:theme="@style/Theme.GoTravel" />
+        <activity
             android:name=".ui.module.chat.ChatActivity"
             android:exported="false" />
         <activity
